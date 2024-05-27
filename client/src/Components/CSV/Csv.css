@@ -5,6 +5,7 @@
     flex-direction: column;
     gap: 5%;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 form{
@@ -16,7 +17,7 @@ form{
     gap: 20px;
 }
 
-label{
+.csv-label{
     font-weight: bold;
     padding: 1%;
     width: 100%;
@@ -31,12 +32,19 @@ label{
     padding: 0.25rem 0.55rem;
 }
 
+.display{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     width: 90%;
     transform: translateX(5%);
+    text-align: left;
 }
 
 th, td {
@@ -55,4 +63,30 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: #ffffff;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.calc{
+    padding: 0.5rem 0.9rem;
+    width: 20%;
+}
+
+.price{
+    padding: 0 1.5rem;
+    border: none;
+    background: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 98, 255);
+    width: 50%;
+}
+
+#price{
+    text-align: center;
 }
